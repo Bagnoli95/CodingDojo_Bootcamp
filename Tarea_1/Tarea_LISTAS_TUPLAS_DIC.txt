@@ -1,0 +1,11 @@
+1 - Lista de Ventas: [{'fecha': '2024-01-01', 'producto': 'Etiqueta pequeña', 'cantidad': 200, 'precio': 1500}, {'fecha': '2024-01-02', 'producto': 'Etiqueta mediana', 'cantidad': 150, 'precio': 2200}, {'fecha': '2024-01-03', 'producto': 'Etiqueta grande', 'cantidad': 120, 'precio': 5500}, {'fecha': '2024-01-04', 'producto': 'Insumo hojas', 'cantidad': 32, 'precio': 24500}, {'fecha': '2024-01-05', 'producto': 'Insumo tintas', 'cantidad': 8, 'precio': 350000}]
+2 - Los ingresos totales son: 4874000
+3 - Producto más vendido: {'clave': 'Etiqueta pequeña', 'valor': 200}
+{'clave': 'Etiqueta pequeña', 'valor': {'ventaTotal': 300000, 'cantidadTotal': 200}}
+{'clave': 'Etiqueta mediana', 'valor': {'ventaTotal': 330000, 'cantidadTotal': 150}}
+{'clave': 'Etiqueta grande', 'valor': {'ventaTotal': 660000, 'cantidadTotal': 120}}
+{'clave': 'Insumo hojas', 'valor': {'ventaTotal': 784000, 'cantidadTotal': 32}}
+{'clave': 'Insumo tintas', 'valor': {'ventaTotal': 2800000, 'cantidadTotal': 8}}
+4 - Promedio de precios por Productos: [{'clave': 'Etiqueta pequeña', 'valor': {'ventaTotal': 300000, 'cantidadTotal': 200}}, {'clave': 'Etiqueta mediana', 'valor': {'ventaTotal': 330000, 'cantidadTotal': 150}}, {'clave': 'Etiqueta grande', 'valor': {'ventaTotal': 660000, 'cantidadTotal': 120}}, {'clave': 'Insumo hojas', 'valor': {'ventaTotal': 784000, 'cantidadTotal': 32}}, {'clave': 'Insumo tintas', 'valor': {'ventaTotal': 2800000, 'cantidadTotal': 8}}]
+5 - Ventas por dia: {'2024-01-01': 300000, '2024-01-02': 330000, '2024-01-03': 660000, '2024-01-04': 784000, '2024-01-05': 2800000}
+6 - Representación de Datos: {'Etiqueta pequeña': {'cantidad_total': 200, 'ingresos_totales': 300000, 'precio_promedio': 1500.0}, 'Etiqueta mediana': {'cantidad_total': 150, 'ingresos_totales': 330000, 'precio_promedio': 2200.0}, 'Etiqueta grande': {'cantidad_total': 120, 'ingresos_totales': 660000, 'precio_promedio': 5500.0}, 'Insumo hojas': {'cantidad_total': 32, 'ingresos_totales': 784000, 'precio_promedio': 24500.0}, 'Insumo tintas': {'cantidad_total': 8, 'ingresos_totales': 2800000, 'precio_promedio': 350000.0}}
